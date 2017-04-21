@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`lrndesign-paperstack`
+A LRN element
+
+@demo demo/index.html
+-->
+
+<dom-module id="lrndesign-paperstack">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>[[title]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'lrndesign-paperstack',
+
+      properties: {
+        title: {
+          type: String,
+          value: 'lrndesign-paperstack',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
